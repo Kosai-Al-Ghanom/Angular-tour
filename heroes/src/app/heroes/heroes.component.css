@@ -14,11 +14,15 @@
     padding: .3em 0;
     height: 1.6em;
     border-radius: 4px;
+    width:200px
   }
   .heroes li:hover {
     color: #2c3a41;
     background-color: #e6e6e6;
-    left: .1em;
+    width: 225px;
+    
+    transition:width 0.5s linear;
+    
   }
   .heroes li.selected {
     background-color: black;
